@@ -46,6 +46,11 @@ function bot()
 		{
 			tableCommand(arguments,receivedMessage)
 		}
+
+		if(primaryCommand == "vicnopls")
+		{
+			vicnoplsCommand(arguments,receivedMessage)
+		}
 	}
 
 
@@ -58,6 +63,15 @@ function bot()
 	{
 		const localFileAttachment = new Discord.Attachment('boss_table.png')
 		receivedMessage.channel.send(localFileAttachment)
+		
+	}
+
+	function vicnoplsCommand(arguments,receivedMessage)
+	{
+		const localFileAttachment = new Discord.Attachment('vic_stop.png')
+		receivedMessage.channel.send(localFileAttachment)
+		receivedMessage.channel.send("`VIC PLS \n PENSA AI BAMBINI VIC \n LA TRI BASILISK VIC, FERMATI VIC \n PEN KZARKA ATTEMPT VIC, NON FARLO VIC`")
+		receivedMessage.channel.send("`F \n F \n F \n F`")
 		
 	}
 
