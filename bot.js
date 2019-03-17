@@ -84,16 +84,7 @@ function bot()
 	{
 
 		receivedMessage.channel.send(
-			"`BOSS ARMOR: \n+6 - +8   10 to 13 FS \n+9   11 to 14 FS \n+10   11 to 15 FS \n+11   15 to 16 FS \n+12   15 to 18 FS \n+13   18 to 20 FS \n+14 - +15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`")
-
-		receivedMessage.channel.send(
-			"`BOSS WEAPON: \n+8   10 to 13 FS \n+9   10 to 14 FS \n+10   11 to 15 FS \n+11   11 to 16 FS \n+12   12 to 18 FS \n+13   15 to 20 FS \n+14   16 to 25 FS \n+15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`")
-
-		receivedMessage.channel.send(
-			"`BLUE ACCESSORY: \nPRI   18 to 25 FS \nDUO   30 to 35 FS \nTRI   40 to 45 FS \nTET   70 to 90 FS \nPEN   100 or more FS (no vic,don't) \n`")
-
-		receivedMessage.channel.send(
-			"`YELLOW ACCESSORY: \nPRI   25 or more FS \nDUO   35 or more FS  \nTRI   45 or more FS \nTET   90 or more FS \nPEN   100 or more FS (no vic,don't) \n`")
+			"`BOSS ARMOR: \n+6 - +8   10 to 13 FS \n+9   11 to 14 FS \n+10   11 to 15 FS \n+11   15 to 16 FS \n+12   15 to 18 FS \n+13   18 to 20 FS \n+14 - +15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`"+"`BOSS WEAPON: \n+8   10 to 13 FS \n+9   10 to 14 FS \n+10   11 to 15 FS \n+11   11 to 16 FS \n+12   12 to 18 FS \n+13   15 to 20 FS \n+14   16 to 25 FS \n+15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`"+"`BLUE ACCESSORY: \nPRI   18 to 25 FS \nDUO   30 to 35 FS \nTRI   40 to 45 FS \nTET   70 to 90 FS \nPEN   100 or more FS (no vic,don't) \n`"+"`YELLOW ACCESSORY: \nPRI   25 or more FS \nDUO   35 or more FS  \nTRI   45 or more FS \nTET   90 or more FS \nPEN   100 or more FS (no vic,don't) \n`")
 			
 	}
 		
