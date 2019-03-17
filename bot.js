@@ -61,7 +61,7 @@ function bot()
 
 	function helpCommand(arguments,receivedMessage)
 	{
-		receivedMessage.channel.send("`BDO Bot Command list:\n -timer : Tempo rimanente per il prossimo boss \n -table : Tabella dei boss \n -vicnopls : Il bot piange per la roulette di vic`" )
+		receivedMessage.channel.send("`BDO Bot Command list:\n -fs : Failstack list per accessori e bossgear\n -table : Tabella dei boss \n -vicnopls : Il bot piange per la roulette di vic\n -help : lista comandi utilizzabili`" )
 	}
 
 	function tableCommand(arguments,receivedMessage)
@@ -82,28 +82,21 @@ function bot()
 
 	function failstackCommand(arguments,receivedMessage)
 	{
-		let temp = arguments[1]
-		switch (temp)
-		{
-			case "acc-b":
-			receivedMessage.channel.send(
-				"`PRI   18 to 25 FS \nDUO   30 to 35 FS \nTRI   40 to 45 FS \nTET   70 to 90 FS \nPEN   100 or more FS (no vic,don't) \n`")
-			break
-			case "acc-y":
-			receivedMessage.channel.send(
-				"`PRI   25 or more FS \nDUO   35 or more FS  \nTRI   45 or more FS \nTET   90 or more FS \nPEN   100 or more FS (no vic,don't) \n`")
+
+		receivedMessage.channel.send(
+			"`BOSS ARMOR: \n+6 - +8   10 to 13 FS \n+9   11 to 14 FS \n+10   11 to 15 FS \n+11   15 to 16 FS \n+12   15 to 18 FS \n+13   18 to 20 FS \n+14 - +15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`")
+
+		receivedMessage.channel.send(
+			"`BOSS WEAPON: \n+8   10 to 13 FS \n+9   10 to 14 FS \n+10   11 to 15 FS \n+11   11 to 16 FS \n+12   12 to 18 FS \n+13   15 to 20 FS \n+14   16 to 25 FS \n+15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`")
+
+		receivedMessage.channel.send(
+			"`BLUE ACCESSORY: \nPRI   18 to 25 FS \nDUO   30 to 35 FS \nTRI   40 to 45 FS \nTET   70 to 90 FS \nPEN   100 or more FS (no vic,don't) \n`")
+
+		receivedMessage.channel.send(
+			"`YELLOW ACCESSORY: \nPRI   25 or more FS \nDUO   35 or more FS  \nTRI   45 or more FS \nTET   90 or more FS \nPEN   100 or more FS (no vic,don't) \n`")
 			
-			break
-			case "boss-arm":
-			receivedMessage.channel.send(
-				"`+6 - +8   10 to 13 FS \n+9   11 to 14 FS \n+10   11 to 15 FS \n+11   15 to 16 FS \n+12   15 to 18 FS \n+13   18 to 20 FS \n+14 - +15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`")
-			break
-			case "boss-wep":
-			receivedMessage.channel.send(
-				"`+8   10 to 13 FS \n+9   10 to 14 FS \n+10   11 to 15 FS \n+11   11 to 16 FS \n+12   12 to 18 FS \n+13   15 to 20 FS \n+14   16 to 25 FS \n+15   20 to 25 FS \nPRI   20 to 25 FS \nDUO   25 to 35 FS \nTRI   30 to 45 FS \nTET   50 to 90 FS \nPEN   80 or more FS (no vic,don't) \n`")
-			break
-		}
 	}
+		
 	client.login("NTU2NzAwMjA0ODMzNzAxODkw.D29n5w.EPYO2Iaw7x6hDWbNpwKAa2d-Yro")
 
 }
